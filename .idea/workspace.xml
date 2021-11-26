@@ -40,6 +40,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -93,11 +94,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1819" y="-360" key="CommitChangelistDialog2" timestamp="1637917168288">
+    <state x="1819" y="-360" key="CommitChangelistDialog2" timestamp="1637917831037">
       <screen x="1366" y="-360" width="1600" height="900" />
     </state>
     <state x="387" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-360.1600.900@0.0.1366.728" timestamp="1637888092180" />
-    <state x="1819" y="-360" key="CommitChangelistDialog2/0.0.1366.728/1366.-360.1600.900@1366.-360.1600.900" timestamp="1637917168288" />
+    <state x="1819" y="-360" key="CommitChangelistDialog2/0.0.1366.728/1366.-360.1600.900@1366.-360.1600.900" timestamp="1637917831037" />
     <state x="1942" y="-201" key="FileChooserDialogImpl" timestamp="1637441626203">
       <screen x="1366" y="-360" width="1600" height="900" />
     </state>
@@ -108,9 +109,10 @@
     </state>
     <state x="211" y="0" key="SettingsEditor/0.0.1366.728/1366.-360.1600.900@0.0.1366.728" timestamp="1637886896924" />
     <state x="1667" y="-279" key="SettingsEditor/0.0.1366.728/1366.-360.1600.900@1366.-360.1600.900" timestamp="1637441652841" />
-    <state x="325" y="115" key="Vcs.Push.Dialog.v2" timestamp="1637888100258">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1747" y="-218" key="Vcs.Push.Dialog.v2" timestamp="1637917838199">
+      <screen x="1366" y="-360" width="1600" height="900" />
     </state>
     <state x="325" y="115" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-360.1600.900@0.0.1366.728" timestamp="1637888100258" />
+    <state x="1747" y="-218" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-360.1600.900@1366.-360.1600.900" timestamp="1637917838199" />
   </component>
 </project>
