@@ -6,6 +6,8 @@ from core.aplicacion1.models import *
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.forms.models import model_to_dict
+import os
+from django.core.files.storage import FileSystemStorage
 # Create your views here.
 
 @login_required(login_url='/login')
@@ -20,11 +22,15 @@ def form_sell(request):
             info = miformulario.cleaned_data
 
             username = request.user
+            img = request.FILES['imagen']
+            img_name = img.name
+
+            upimage(img, str(username), img_name)
 
             productos.objects.create(nombre=info['nombre'],
                                      seccion=info['seccion'],
                                      precio=info['precio'],
-                                     imagen=info['imagen'],
+                                     imagen=img_name,
                                      stock=info['stock'],
                                      vendedor=username)
 
@@ -35,6 +41,17 @@ def form_sell(request):
         miformulario = formventa()
 
     return render(request, 'new.html', {'form':miformulario})
+
+def upimage(file_image, user, image_name):
+
+    ruta = 'C:/Users/Rosangel/PycharmProjects/ejemploDjango/proyecto/static/imagenes/perfiles'
+    rutaUser = ruta + '/' + user + '/'
+
+    if not os.path.exists(rutaUser):
+        os.makedirs(rutaUser)
+
+    fs = FileSystemStorage()
+    fs.save(rutaUser + image_name, file_image)
 
 
 class carrito(LoginRequiredMixin, ListView):
@@ -68,3 +85,9 @@ class carrito(LoginRequiredMixin, ListView):
 def eliminarCar(request, id):
     ordenes.objects.filter(comprador=request.user, id=id).delete()
     return redirect('/main/car')
+
+
+@login_required(login_url='/login')
+def pruebas(request):
+    #ordenes.objects.filter(comprador=request.user, id=id).delete()
+    return redirect('/main')

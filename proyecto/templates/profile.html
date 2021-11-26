@@ -85,6 +85,7 @@
 </li>
 
 <a class="form-control mr-sm-2" href="/main/sell">vender</a>
+<a class="form-control mr-sm-2" href="/main/pruebaaas">pruebas</a>
 
 <li class="nav-item">
 <form action="/main/" method="POST" class="form-inline my-2 my-lg-0">
@@ -128,7 +129,8 @@
   <div class="col mb-2">
     <div class="card">
       <div class="col-md-4">
-        <img src= "{{ obj.imagen.url  }}" class="card-img" width="250" height="100">
+
+        <img src="{% static "" %}imagenes/perfiles/{{obj.vendedor}}/{{ obj.imagen  }}" class="card-img" width="250" height="100" alt="">
 
       </div>
       <div class="card-body">

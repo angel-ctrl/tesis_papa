@@ -7,4 +7,6 @@ urlpatterns = [
     path('sell/', form_sell, name='vender'),
     path('car/', carrito.as_view(), name='carrito'),
     path('car/cardelete/<int:id>', eliminarCar, name='eliminar'),
+    path('pruebaaas/', pruebas, name='vender'),
+
 ]

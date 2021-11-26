@@ -6,7 +6,7 @@ class productos(models.Model):
     nombre = models.CharField(max_length=20)
     seccion = models.CharField(max_length=20)
     precio = models.FloatField()
-    imagen = models.ImageField() #upload_to= 'imagenes/'
+    imagen = models.CharField(max_length=100)
     stock = models.IntegerField()
     vendedor = models.CharField(max_length=20)
 

@@ -1,5 +1,6 @@
 {% extends 'layout.html'%}
 {%block body%}
+{% load static %}
 
 <form action="/checkout" method="POST">
 
@@ -18,8 +19,10 @@
 
     <tbody>
       {% for ca in car %}
+
+
       <tr>
-        <td>  <img src= "{{ ca.0.imagen.url  }}"  width="50" height="50"> </td>
+        <td>  <img src="{% static "" %}imagenes/perfiles/{{ca.0.vendedor}}/{{ ca.0.imagen  }}"  width="50" height="50"> </td>
         <td><h5 class="card-title">{{ca.0.nombre}}</h5></td>
         <td><h5>{{ca.0.seccion}}</h5></td>
         <td id="precio"><h5>{{ca.0.precio}}$</h5></td>
