@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce04b898-9e9b-4d51-b69f-e986934c4d01" name="Default Changelist" comment="" />
+    <list default="true" id="ce04b898-9e9b-4d51-b69f-e986934c4d01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto/templates/tryyyyy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +19,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="20WpZuYpIfmu4uIOznqEL8LHYSX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,8 +34,9 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/proyecto/static/imagenes" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -60,10 +71,10 @@
     </state>
     <state x="492" y="129" key="FileChooserDialogImpl/0.0.1366.728/1366.-360.1600.900@0.0.1366.728" timestamp="1637082005289" />
     <state x="1942" y="-201" key="FileChooserDialogImpl/0.0.1366.728/1366.-360.1600.900@1366.-360.1600.900" timestamp="1637441626203" />
-    <state x="257" y="0" key="SettingsEditor" timestamp="1637447429706">
+    <state x="211" y="0" key="SettingsEditor" timestamp="1637886896924">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="257" y="0" key="SettingsEditor/0.0.1366.728/1366.-360.1600.900@0.0.1366.728" timestamp="1637447429706" />
+    <state x="211" y="0" key="SettingsEditor/0.0.1366.728/1366.-360.1600.900@0.0.1366.728" timestamp="1637886896924" />
     <state x="1667" y="-279" key="SettingsEditor/0.0.1366.728/1366.-360.1600.900@1366.-360.1600.900" timestamp="1637441652841" />
   </component>
 </project>
