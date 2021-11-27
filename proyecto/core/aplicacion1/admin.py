@@ -8,9 +8,9 @@ class productos_display(admin.ModelAdmin):
     list_filter = ('nombre', 'seccion', 'precio', 'imagen', 'stock', 'vendedor')
 
 class ordenes_display(admin.ModelAdmin):
-    list_display = ('comprador', 'cantidad', 'producto', 'fecha', 'code_hash')
-    search_fields = ('comprador', 'cantidad', 'producto', 'fecha', 'code_hash')
-    list_filter = ('comprador', 'cantidad', 'producto', 'fecha', 'code_hash')
+    list_display = ('comprador', 'cantidad', 'producto', 'fecha')
+    search_fields = ('comprador', 'cantidad', 'producto', 'fecha')
+    list_filter = ('comprador', 'cantidad', 'producto', 'fecha')
 
 #('comprador', 'cantidad', 'producto', 'fecha', 'code_hash')
 
